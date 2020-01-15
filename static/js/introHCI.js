@@ -10,7 +10,7 @@ function initializePage() {
     $("a.thumbnail").click(projectClick);
 }
 
-function projectClick(e) { 
+function projectClick(e) {
     // prevent the page from reloading      
     e.preventDefault();
     // In an event handler, $(this) refers to      
